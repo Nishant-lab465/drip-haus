@@ -28,11 +28,26 @@ export default function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between px-6">
         {/* Logo */}
-        <a href="#" className="font-display text-xl font-bold tracking-tight">
-          <span className="gradient-text">Design</span>
-          <span className="text-foreground">Drip</span>
-          <span className="text-primary">.</span>
-          <span className="text-muted-foreground text-sm">in</span>
+        <a href="#" className="flex items-center gap-2.5 group">
+          {/* DD Monogram inline SVG */}
+          <svg
+            viewBox="0 0 200 140"
+            className="w-10 h-7 transition-all duration-300 group-hover:scale-110"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect x="0" y="0" width="200" height="140" fill="white" rx="4" />
+            <rect x="14" y="14" width="62" height="112" fill="hsl(120,15%,5%)" rx="2" />
+            <ellipse cx="76" cy="70" rx="38" ry="50" fill="white" />
+            <ellipse cx="76" cy="70" rx="20" ry="33" fill="hsl(120,15%,5%)" />
+            <rect x="110" y="14" width="62" height="112" fill="hsl(120,15%,5%)" rx="2" />
+            <ellipse cx="172" cy="70" rx="38" ry="50" fill="white" />
+            <ellipse cx="172" cy="70" rx="20" ry="33" fill="hsl(120,15%,5%)" />
+          </svg>
+          <span className="font-display text-lg font-black tracking-tight">
+            <span className="gradient-text">Design Drip</span>
+            <span className="text-primary">.in</span>
+          </span>
         </a>
 
         {/* Desktop nav */}

@@ -33,17 +33,17 @@ export default function HeroSection() {
       {/* Mouse-follow glow */}
       <div
         ref={glowRef}
-        className="pointer-events-none absolute w-[600px] h-[600px] rounded-full opacity-30 transition-transform duration-300 ease-out"
+        className="pointer-events-none absolute w-[600px] h-[600px] rounded-full opacity-25 transition-transform duration-300 ease-out"
         style={{
-          background: "radial-gradient(circle, hsl(270 85% 62% / 0.5) 0%, transparent 70%)",
+          background: "radial-gradient(circle, hsl(68 68% 55% / 0.4) 0%, transparent 70%)",
         }}
       />
 
       {/* Ambient glows */}
-      <div className="pointer-events-none absolute top-1/4 left-1/4 w-72 h-72 rounded-full blur-3xl opacity-20"
-        style={{ background: "hsl(270 85% 62%)" }} />
-      <div className="pointer-events-none absolute bottom-1/3 right-1/4 w-96 h-96 rounded-full blur-3xl opacity-10"
-        style={{ background: "hsl(290 100% 70%)" }} />
+      <div className="pointer-events-none absolute top-1/4 left-1/4 w-72 h-72 rounded-full blur-3xl opacity-15"
+        style={{ background: "hsl(68 68% 55%)" }} />
+      <div className="pointer-events-none absolute bottom-1/3 right-1/4 w-96 h-96 rounded-full blur-3xl opacity-8"
+        style={{ background: "hsl(80 90% 60%)" }} />
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
