@@ -29,20 +29,18 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between px-6">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2.5 group">
-          {/* DD Monogram inline SVG */}
+          {/* DC Monogram - exact logo match */}
           <svg
-            viewBox="0 0 200 140"
-            className="w-10 h-7 transition-all duration-300 group-hover:scale-110"
-            fill="none"
+            viewBox="0 0 620 420"
+            className="w-12 h-8 transition-all duration-300 group-hover:scale-110"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect x="0" y="0" width="200" height="140" fill="white" rx="4" />
-            <rect x="14" y="14" width="62" height="112" fill="hsl(120,15%,5%)" rx="2" />
-            <ellipse cx="76" cy="70" rx="38" ry="50" fill="white" />
-            <ellipse cx="76" cy="70" rx="20" ry="33" fill="hsl(120,15%,5%)" />
-            <rect x="110" y="14" width="62" height="112" fill="hsl(120,15%,5%)" rx="2" />
-            <ellipse cx="172" cy="70" rx="38" ry="50" fill="white" />
-            <ellipse cx="172" cy="70" rx="20" ry="33" fill="hsl(120,15%,5%)" />
+            <rect x="0" y="0" width="620" height="420" fill="#0a0a0a" rx="8" />
+            <rect x="14" y="14" width="592" height="392" fill="none" stroke="white" strokeWidth="10" rx="4" />
+            <rect x="36" y="36" width="90" height="348" fill="white" />
+            <path d="M 126 36 Q 310 36 310 210 Q 310 384 126 384 L 126 36 Z" fill="white" />
+            <path d="M 150 90 Q 256 90 256 210 Q 256 330 150 330 L 150 90 Z" fill="#0a0a0a" />
+            <path d="M 494 36 Q 584 36 584 120 L 530 120 Q 530 90 494 90 Q 364 90 364 210 Q 364 330 494 330 Q 530 330 530 300 L 584 300 Q 584 384 494 384 Q 310 384 310 210 Q 310 36 494 36 Z" fill="white" />
           </svg>
           <span className="font-display text-lg font-black tracking-tight">
             <span className="gradient-text">Design Drip</span>

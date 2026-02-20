@@ -91,7 +91,7 @@ export default {
       backgroundImage: {
         "gradient-neon": "linear-gradient(90deg, hsl(var(--neon-purple)), hsl(var(--neon-violet)))",
         "gradient-hero": "linear-gradient(135deg, hsl(68 68% 55% / 0.12), hsl(80 90% 60% / 0.04))",
-        "gradient-card": "linear-gradient(145deg, hsl(120 12% 10%), hsl(120 12% 7%))",
+        "gradient-card": "linear-gradient(145deg, hsl(0 0% 9%), hsl(0 0% 6%))",
         "gradient-glow": "radial-gradient(ellipse at center, hsl(68 68% 55% / 0.2) 0%, transparent 70%)",
         "shimmer": "linear-gradient(90deg, transparent, hsl(68 68% 55% / 0.3), transparent)",
       },

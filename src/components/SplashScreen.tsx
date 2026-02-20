@@ -31,23 +31,28 @@ export default function SplashScreen({ onComplete }: { onComplete: () => void })
               transition: "all 0.6s cubic-bezier(0.23, 1, 0.32, 1)",
             }}
           >
-            {/* White rectangle with DD cutout - recreating the logo mark */}
+            {/* DC Monogram - exact match to logo */}
             <svg
-              viewBox="0 0 200 140"
-              className="w-40 h-28 sm:w-52 sm:h-36"
-              fill="none"
+              viewBox="0 0 620 420"
+              className="w-44 h-28 sm:w-60 sm:h-40"
               xmlns="http://www.w3.org/2000/svg"
             >
-              {/* Outer white rectangle */}
-              <rect x="0" y="0" width="200" height="140" fill="white" rx="4" />
-              {/* D shape 1 cutout */}
-              <rect x="14" y="14" width="62" height="112" fill="hsl(var(--background))" rx="2" />
-              <ellipse cx="76" cy="70" rx="38" ry="50" fill="white" />
-              <ellipse cx="76" cy="70" rx="20" ry="33" fill="hsl(var(--background))" />
-              {/* D shape 2 cutout */}
-              <rect x="110" y="14" width="62" height="112" fill="hsl(var(--background))" rx="2" />
-              <ellipse cx="172" cy="70" rx="38" ry="50" fill="white" />
-              <ellipse cx="172" cy="70" rx="20" ry="33" fill="hsl(var(--background))" />
+              {/* Outer dark rectangle */}
+              <rect x="0" y="0" width="620" height="420" fill="#0a0a0a" rx="8" />
+              {/* White border inset */}
+              <rect x="14" y="14" width="592" height="392" fill="none" stroke="white" strokeWidth="6" rx="4" />
+
+              {/* Left D - white filled D shape */}
+              {/* D vertical bar */}
+              <rect x="36" y="36" width="90" height="348" fill="white" />
+              {/* D curve - right arc */}
+              <path d="M 126 36 Q 310 36 310 210 Q 310 384 126 384 L 126 36 Z" fill="white" />
+              {/* D inner cutout (the hole) */}
+              <path d="M 150 90 Q 256 90 256 210 Q 256 330 150 330 L 150 90 Z" fill="#0a0a0a" />
+
+              {/* Right C - open C shape */}
+              {/* C outer arc */}
+              <path d="M 494 36 Q 584 36 584 120 L 530 120 Q 530 90 494 90 Q 364 90 364 210 Q 364 330 494 330 Q 530 330 530 300 L 584 300 Q 584 384 494 384 Q 310 384 310 210 Q 310 36 494 36 Z" fill="white" />
             </svg>
           </div>
 
