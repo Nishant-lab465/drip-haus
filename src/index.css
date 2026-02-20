@@ -8,35 +8,35 @@
 
 @layer base {
   :root {
-    /* Core palette — DesignDrip.in: deep forest dark + lime neon */
-    --background: 120 15% 5%;
-    --foreground: 0 0% 95%;
+    /* Core palette — DesignDrip.in: pure black + lime neon */
+    --background: 0 0% 4%;
+    --foreground: 0 0% 96%;
 
-    --card: 120 12% 8%;
-    --card-foreground: 0 0% 95%;
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 96%;
 
-    --popover: 120 12% 8%;
-    --popover-foreground: 0 0% 95%;
+    --popover: 0 0% 7%;
+    --popover-foreground: 0 0% 96%;
 
     /* Lime neon — brand primary from logo */
     --primary: 68 68% 55%;
-    --primary-foreground: 120 15% 5%;
+    --primary-foreground: 0 0% 4%;
 
     /* Chrome silver */
     --secondary: 220 15% 75%;
     --secondary-foreground: 0 0% 4%;
 
-    --muted: 120 10% 12%;
-    --muted-foreground: 120 5% 50%;
+    --muted: 0 0% 11%;
+    --muted-foreground: 0 0% 48%;
 
     --accent: 80 90% 60%;
-    --accent-foreground: 120 15% 5%;
+    --accent-foreground: 0 0% 4%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 120 12% 14%;
-    --input: 120 12% 11%;
+    --border: 0 0% 13%;
+    --input: 0 0% 10%;
     --ring: 68 68% 55%;
 
     --radius: 0.75rem;
@@ -45,14 +45,14 @@
     --neon-purple: 68 68% 55%;
     --neon-violet: 80 90% 60%;
     --chrome: 220 15% 80%;
-    --deep-black: 120 15% 5%;
-    --surface: 120 10% 8%;
-    --surface-elevated: 120 12% 11%;
+    --deep-black: 0 0% 4%;
+    --surface: 0 0% 7%;
+    --surface-elevated: 0 0% 10%;
 
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(68 68% 55% / 0.12), hsl(80 90% 60% / 0.04));
     --gradient-neon: linear-gradient(90deg, hsl(68 68% 55%), hsl(80 90% 60%));
-    --gradient-card: linear-gradient(145deg, hsl(120 12% 10%), hsl(120 12% 7%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 9%), hsl(0 0% 6%));
     --gradient-glow: radial-gradient(ellipse at center, hsl(68 68% 55% / 0.2) 0%, transparent 70%);
 
     /* Shadows */
@@ -61,13 +61,13 @@
     --shadow-button: 0 4px 20px hsl(68 68% 55% / 0.5);
 
     /* Sidebar */
-    --sidebar-background: 120 15% 5%;
+    --sidebar-background: 0 0% 4%;
     --sidebar-foreground: 0 0% 90%;
     --sidebar-primary: 68 68% 55%;
-    --sidebar-primary-foreground: 120 15% 5%;
-    --sidebar-accent: 120 12% 12%;
+    --sidebar-primary-foreground: 0 0% 4%;
+    --sidebar-accent: 0 0% 10%;
     --sidebar-accent-foreground: 0 0% 90%;
-    --sidebar-border: 120 12% 14%;
+    --sidebar-border: 0 0% 13%;
     --sidebar-ring: 68 68% 55%;
   }
 }
