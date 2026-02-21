@@ -8,67 +8,67 @@
 
 @layer base {
   :root {
-    /* Core palette — DesignDrip.in: pure black + lime neon */
+    /* Core palette */
     --background: 0 0% 4%;
-    --foreground: 0 0% 96%;
+    --foreground: 0 0% 95%;
 
-    --card: 0 0% 7%;
-    --card-foreground: 0 0% 96%;
+    --card: 260 20% 8%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 0 0% 7%;
-    --popover-foreground: 0 0% 96%;
+    --popover: 260 20% 8%;
+    --popover-foreground: 0 0% 95%;
 
-    /* Lime neon — brand primary from logo */
-    --primary: 68 68% 55%;
-    --primary-foreground: 0 0% 4%;
+    /* Electric purple neon */
+    --primary: 270 85% 62%;
+    --primary-foreground: 0 0% 100%;
 
     /* Chrome silver */
     --secondary: 220 15% 75%;
     --secondary-foreground: 0 0% 4%;
 
-    --muted: 0 0% 11%;
-    --muted-foreground: 0 0% 48%;
+    --muted: 260 15% 12%;
+    --muted-foreground: 220 10% 55%;
 
-    --accent: 80 90% 60%;
+    --accent: 280 100% 70%;
     --accent-foreground: 0 0% 4%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 0 0% 13%;
-    --input: 0 0% 10%;
-    --ring: 68 68% 55%;
+    --border: 260 20% 15%;
+    --input: 260 20% 12%;
+    --ring: 270 85% 62%;
 
     --radius: 0.75rem;
 
     /* Brand custom */
-    --neon-purple: 68 68% 55%;
-    --neon-violet: 80 90% 60%;
+    --neon-purple: 270 85% 62%;
+    --neon-violet: 290 100% 70%;
     --chrome: 220 15% 80%;
     --deep-black: 0 0% 4%;
-    --surface: 0 0% 7%;
-    --surface-elevated: 0 0% 10%;
+    --surface: 260 15% 8%;
+    --surface-elevated: 260 20% 11%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(68 68% 55% / 0.12), hsl(80 90% 60% / 0.04));
-    --gradient-neon: linear-gradient(90deg, hsl(68 68% 55%), hsl(80 90% 60%));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 9%), hsl(0 0% 6%));
-    --gradient-glow: radial-gradient(ellipse at center, hsl(68 68% 55% / 0.2) 0%, transparent 70%);
+    --gradient-hero: linear-gradient(135deg, hsl(270 85% 62% / 0.15), hsl(290 100% 70% / 0.05));
+    --gradient-neon: linear-gradient(90deg, hsl(270 85% 62%), hsl(290 100% 70%));
+    --gradient-card: linear-gradient(145deg, hsl(260 20% 10%), hsl(260 20% 7%));
+    --gradient-glow: radial-gradient(ellipse at center, hsl(270 85% 62% / 0.2) 0%, transparent 70%);
 
     /* Shadows */
-    --shadow-neon: 0 0 30px hsl(68 68% 55% / 0.4), 0 0 60px hsl(68 68% 55% / 0.15);
-    --shadow-card: 0 8px 32px hsl(0 0% 0% / 0.7);
-    --shadow-button: 0 4px 20px hsl(68 68% 55% / 0.5);
+    --shadow-neon: 0 0 30px hsl(270 85% 62% / 0.4), 0 0 60px hsl(270 85% 62% / 0.15);
+    --shadow-card: 0 8px 32px hsl(0 0% 0% / 0.6);
+    --shadow-button: 0 4px 20px hsl(270 85% 62% / 0.5);
 
     /* Sidebar */
-    --sidebar-background: 0 0% 4%;
+    --sidebar-background: 0 0% 5%;
     --sidebar-foreground: 0 0% 90%;
-    --sidebar-primary: 68 68% 55%;
-    --sidebar-primary-foreground: 0 0% 4%;
-    --sidebar-accent: 0 0% 10%;
+    --sidebar-primary: 270 85% 62%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 260 20% 12%;
     --sidebar-accent-foreground: 0 0% 90%;
-    --sidebar-border: 0 0% 13%;
-    --sidebar-ring: 68 68% 55%;
+    --sidebar-border: 260 20% 15%;
+    --sidebar-ring: 270 85% 62%;
   }
 }
 
@@ -177,12 +177,12 @@
     height: 100%;
   }
   .glitch::before {
-    color: hsl(68 80% 75%);
+    color: hsl(270 85% 80%);
     animation: glitch-1 3s infinite linear alternate-reverse;
     clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
   }
   .glitch::after {
-    color: hsl(80 90% 60%);
+    color: hsl(200 100% 70%);
     animation: glitch-2 2s infinite linear alternate-reverse;
     clip-path: polygon(0 55%, 100% 55%, 100% 100%, 0 100%);
   }
@@ -224,8 +224,8 @@
 }
 
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 20px hsl(68 68% 55% / 0.4); }
-  50% { box-shadow: 0 0 40px hsl(68 68% 55% / 0.8), 0 0 80px hsl(68 68% 55% / 0.3); }
+  0%, 100% { box-shadow: 0 0 20px hsl(270 85% 62% / 0.4); }
+  50% { box-shadow: 0 0 40px hsl(270 85% 62% / 0.8), 0 0 80px hsl(270 85% 62% / 0.3); }
 }
 
 @keyframes text-reveal {
