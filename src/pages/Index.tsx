@@ -4,6 +4,7 @@ import MarqueeStrip from "@/components/MarqueeStrip";
 import AboutSection from "@/components/AboutSection";
 import ServicesSection from "@/components/ServicesSection";
 import PortfolioSection from "@/components/PortfolioSection";
+import PricingSection from "@/components/PricingSection";
 import WhyUsSection from "@/components/WhyUsSection";
 import ProcessSection from "@/components/ProcessSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
@@ -19,6 +20,7 @@ const Index = () => {
       <AboutSection />
       <ServicesSection />
       <PortfolioSection />
+      <PricingSection />
       <WhyUsSection />
       <ProcessSection />
       <TestimonialsSection />
