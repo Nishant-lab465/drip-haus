@@ -99,7 +99,7 @@ export default function TestimonialsSection() {
             </blockquote>
             <div className="flex items-center justify-center gap-4">
               <div className="w-12 h-12 rounded-full flex items-center justify-center font-display font-black text-sm text-primary-foreground"
-                style={{ background: "linear-gradient(135deg, hsl(270 85% 62%), hsl(290 100% 70%))" }}>
+                style={{ background: "linear-gradient(135deg, hsl(82 85% 55%), hsl(90 80% 60%))" }}>
                 {testimonials[current].avatar}
               </div>
               <div className="text-left">

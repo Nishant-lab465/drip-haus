@@ -6,28 +6,28 @@ const steps = [
     icon: "◉",
     title: "Discovery",
     desc: "We deep-dive into your brand, audience, competition, and goals to build a bulletproof creative brief.",
-    color: "hsl(270 85% 62%)",
+    color: "hsl(82 85% 55%)",
   },
   {
     num: "02",
     icon: "◈",
     title: "Design",
     desc: "Our creatives craft mood boards, concepts, and visual directions that align your brand with its future.",
-    color: "hsl(280 90% 65%)",
+    color: "hsl(85 80% 50%)",
   },
   {
     num: "03",
     icon: "⚡",
     title: "Develop",
     desc: "We refine, iterate, and polish every asset — from pixel-perfect files to final production-ready deliverables.",
-    color: "hsl(290 100% 70%)",
+    color: "hsl(90 80% 60%)",
   },
   {
     num: "04",
     icon: "🚀",
     title: "Elevate",
     desc: "Your brand goes live, and we support launch strategy to ensure maximum impact from day one.",
-    color: "hsl(260 80% 70%)",
+    color: "hsl(95 70% 55%)",
   },
 ];
 
@@ -55,7 +55,7 @@ export default function ProcessSection() {
     <section id="process" ref={ref} className="py-32 relative overflow-hidden">
       {/* BG line */}
       <div className="pointer-events-none absolute left-1/2 top-40 bottom-40 w-px -translate-x-1/2 hidden lg:block"
-        style={{ background: "linear-gradient(to bottom, transparent, hsl(270 85% 62% / 0.3), transparent)" }} />
+        style={{ background: "linear-gradient(to bottom, transparent, hsl(82 85% 55% / 0.3), transparent)" }} />
 
       <div className="container mx-auto px-6">
         {/* Header */}

@@ -24,7 +24,7 @@ export default function CTASection() {
     <section id="contact" ref={ref} className="py-32 relative overflow-hidden noise-overlay">
       {/* Glow bg */}
       <div className="pointer-events-none absolute inset-0"
-        style={{ background: "radial-gradient(ellipse at 50% 50%, hsl(270 85% 62% / 0.15) 0%, transparent 70%)" }} />
+        style={{ background: "radial-gradient(ellipse at 50% 50%, hsl(82 85% 55% / 0.15) 0%, transparent 70%)" }} />
       
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">

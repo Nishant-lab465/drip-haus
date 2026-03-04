@@ -60,8 +60,8 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
         neon: {
-          purple: "hsl(var(--neon-purple))",
-          violet: "hsl(var(--neon-violet))",
+          lime: "hsl(var(--neon-lime))",
+          green: "hsl(var(--neon-green))",
         },
         chrome: "hsl(var(--chrome))",
         surface: {
@@ -89,11 +89,11 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       backgroundImage: {
-        "gradient-neon": "linear-gradient(90deg, hsl(var(--neon-purple)), hsl(var(--neon-violet)))",
-        "gradient-hero": "linear-gradient(135deg, hsl(270 85% 62% / 0.15), hsl(290 100% 70% / 0.05))",
-        "gradient-card": "linear-gradient(145deg, hsl(260 20% 10%), hsl(260 20% 7%))",
-        "gradient-glow": "radial-gradient(ellipse at center, hsl(270 85% 62% / 0.25) 0%, transparent 70%)",
-        "shimmer": "linear-gradient(90deg, transparent, hsl(270 85% 62% / 0.3), transparent)",
+        "gradient-neon": "linear-gradient(90deg, hsl(var(--neon-lime)), hsl(var(--neon-green)))",
+        "gradient-hero": "linear-gradient(135deg, hsl(82 85% 55% / 0.15), hsl(90 80% 60% / 0.05))",
+        "gradient-card": "linear-gradient(145deg, hsl(80 10% 10%), hsl(80 10% 7%))",
+        "gradient-glow": "radial-gradient(ellipse at center, hsl(82 85% 55% / 0.25) 0%, transparent 70%)",
+        "shimmer": "linear-gradient(90deg, transparent, hsl(82 85% 55% / 0.3), transparent)",
       },
     },
   },

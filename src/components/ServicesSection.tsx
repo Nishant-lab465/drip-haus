@@ -75,7 +75,7 @@ export default function ServicesSection() {
     <section id="services" ref={ref} className="py-32 relative overflow-hidden">
       {/* bg accent */}
       <div className="pointer-events-none absolute top-0 right-0 w-96 h-96 rounded-full blur-3xl opacity-10"
-        style={{ background: "hsl(290 100% 70%)" }} />
+        style={{ background: "hsl(90 80% 60%)" }} />
 
       <div className="container mx-auto px-6">
         {/* Header */}
@@ -98,7 +98,7 @@ export default function ServicesSection() {
             >
               {/* Icon */}
               <div className="w-10 h-10 flex items-center justify-center rounded-xl mb-4 text-xl neon-text transition-all duration-300 group-hover:scale-110"
-                style={{ background: "hsl(270 85% 62% / 0.1)" }}>
+                style={{ background: "hsl(82 85% 55% / 0.1)" }}>
                 {service.icon}
               </div>
               {/* Tag */}
