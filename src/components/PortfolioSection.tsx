@@ -98,7 +98,7 @@ export default function PortfolioSection() {
                 </div>
               </div>
               {/* Border glow on hover */}
-              <div className="absolute inset-0 rounded-2xl border border-primary/0 group-hover:border-primary/50 transition-all duration-500 group-hover:shadow-[0_0_30px_hsl(270_85%_62%/0.3)]" />
+              <div className="absolute inset-0 rounded-2xl border border-primary/0 group-hover:border-primary/50 transition-all duration-500 group-hover:shadow-[0_0_30px_hsl(82_85%_55%/0.3)]" />
             </div>
           ))}
         </div>

@@ -115,7 +115,7 @@ export default function PricingSection() {
       {/* Glow accents */}
       <div
         className="pointer-events-none absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full blur-3xl opacity-10"
-        style={{ background: "hsl(270 85% 62%)" }}
+        style={{ background: "hsl(82 85% 55%)" }}
       />
 
       <div className="container mx-auto px-6">

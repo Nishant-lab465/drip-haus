@@ -24,7 +24,7 @@ export default function AboutSection() {
     <section id="about" ref={ref} className="py-32 relative overflow-hidden">
       {/* Background accent */}
       <div className="pointer-events-none absolute top-1/2 -left-40 w-96 h-96 rounded-full blur-3xl opacity-10"
-        style={{ background: "hsl(270 85% 62%)" }} />
+        style={{ background: "hsl(82 85% 55%)" }} />
 
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
