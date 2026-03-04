@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
+import logo from "@/assets/logo.jpg";
 
 const navLinks = [
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
   { label: "Work", href: "#portfolio" },
-  { label: "Pricing", href: "#pricing" },
+  
   { label: "Process", href: "#process" },
   { label: "Contact", href: "#contact" },
 ];
@@ -29,11 +30,8 @@ export default function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between px-6">
         {/* Logo */}
-        <a href="#" className="font-display text-xl font-bold tracking-tight">
-          <span className="gradient-text">Design</span>
-          <span className="text-foreground">Drip</span>
-          <span className="text-primary">.</span>
-          <span className="text-muted-foreground text-sm">in</span>
+        <a href="#" className="flex items-center">
+          <img src={logo} alt="DesignDrip.in" className="h-10 w-auto" />
         </a>
 
         {/* Desktop nav */}
