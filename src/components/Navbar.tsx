@@ -30,11 +30,8 @@ export default function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between px-6">
         {/* Logo */}
-        <a href="#" className="font-display text-xl font-bold tracking-tight">
-          <span className="gradient-text">Design</span>
-          <span className="text-foreground">Drip</span>
-          <span className="text-primary">.</span>
-          <span className="text-muted-foreground text-sm">in</span>
+        <a href="#" className="flex-shrink-0">
+          <img src={logoImg} alt="DesignDrip.in" className="h-10 w-auto rounded" />
         </a>
 
         {/* Desktop nav */}

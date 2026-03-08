@@ -7,12 +7,7 @@ export default function FooterSection() {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
           {/* Logo */}
           <div>
-            <div className="font-display text-2xl font-black mb-1">
-              <span className="gradient-text">Design</span>
-              <span className="text-foreground">Drip</span>
-              <span className="text-primary">.</span>
-              <span className="text-muted-foreground text-sm">in</span>
-            </div>
+            <img src={logoImg} alt="DesignDrip.in" className="h-12 w-auto rounded" />
             <div className="text-xs text-muted-foreground">
               We Don't Just Design. We Create Drip.
             </div>
