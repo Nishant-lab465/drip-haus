@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logoImg from "@/assets/designdrip-logo-clean.png";
+import logoImg from "@/assets/designdrip-logo-new.jpeg";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -31,7 +31,7 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between px-6">
         {/* Logo */}
         <a href="#" className="flex-shrink-0">
-          <img src={logoImg} alt="DesignDrip.in" className="h-8 w-auto rounded" />
+          <img src={logoImg} alt="DesignDrip.in" className="h-10 w-auto rounded-md object-contain" />
         </a>
 
         {/* Desktop nav */}
