@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import logoImg from "@/assets/designdrip-logo.jpg";
 
 const navLinks = [
   { label: "About", href: "#about" },
