@@ -1,4 +1,4 @@
-import logoImg from "@/assets/designdrip-logo-clean.png";
+import logoImg from "@/assets/designdrip-logo-new.jpeg";
 
 export default function FooterSection() {
   return (
