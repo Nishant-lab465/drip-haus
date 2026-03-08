@@ -1,3 +1,5 @@
+import logoImg from "@/assets/designdrip-logo.jpg";
+
 export default function FooterSection() {
   return (
     <footer className="border-t border-border/50 py-12">
