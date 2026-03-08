@@ -21,7 +21,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden noise-overlay">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden noise-overlay pt-20">
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
